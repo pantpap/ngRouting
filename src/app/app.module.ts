@@ -23,7 +23,6 @@ import { ProductListComponent } from './products/product-list.component';
     HttpClientModule,
     RouterModule.forRoot([
       { path: 'welcome', component: WelcomeComponent },
-      { path: 'products', component: ProductListComponent },
       { path: '', redirectTo: 'welcome', pathMatch: 'full' },
       { path: '**', component: PageNotFoundComponent }
     ]),
